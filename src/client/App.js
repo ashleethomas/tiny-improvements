@@ -55,6 +55,7 @@ class App extends Component {
           awards: response.data
         })
       })
+    this.toggle()
   }
   componentDidMount = () => {
     axios.get("/api/kudos")
